@@ -1,0 +1,120 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+img{
+  width: 120px;
+}
+
+.Photo-Button{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.button1{
+  width: 150px;
+  height: 30px;
+  border-color: #5a80d1;
+  border-width: 1.5px;
+  background-color: white;
+  color: #5a80d1;
+}
+
+.button2{
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  border-style: none;
+}
+
+.Button12{
+  display:flex;
+  flex-direction:column;
+}
+
+.button3{
+  color: blue;
+  background-color: white;
+  border-style: none;
+  height: 35px;
+  width: 100px;
+}
+
+.button4{
+  color: white;
+  background-color: blue;
+  border-style: none;
+  height: 35px;
+  width: 100px;
+}
+
+
+.Button34{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-up{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.input-down{
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+input{
+  background-color: #e9f0f3aa;
+  border-style: none;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+label{
+  text-align: left;
+  display: block;
+}
